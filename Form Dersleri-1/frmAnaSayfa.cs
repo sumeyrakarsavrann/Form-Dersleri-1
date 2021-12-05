@@ -25,17 +25,6 @@ namespace Form_Dersleri_1
         private void frmAnaSayfa_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Merhaba Dünya!");
-
-            label28.Text = "toplam eleman sayısı="+checkedListBox1.Items.Count.ToString();
-            bool aranilan = checkedListBox1.Items.Contains("ankara");
-            if (aranilan==true)
-            {
-                label30.Text = "aranilan eleman bulundu";
-            }
-            else
-            {
-                label30.Text = "aranilan eleman bulunamadı";
-            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -96,9 +85,6 @@ namespace Form_Dersleri_1
             string metin;
             metin = textBox1.Text;
 
-            //textboxa string yazarsak
-            string ay = textBox1.Text;
-
             //textboxa int yazmak istersek alttaki gibi yapacağız
             //int.parse stringi inte dönüştürüyor
             //int.parse yerine convert.toint32 yazsak da aynısı olur
@@ -109,6 +95,7 @@ namespace Form_Dersleri_1
             //textboxa ne yazarsam göster butonuna basınca label2 de yazdığım çıkar
 
         }
+<<<<<<< HEAD
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -449,5 +436,7 @@ namespace Form_Dersleri_1
         {
             //.
         }
+=======
+>>>>>>> parent of c6bac3d (a)
     }
 }

@@ -36,6 +36,7 @@ namespace Form_Dersleri_1
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -123,39 +124,38 @@ namespace Form_Dersleri_1
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
+=======
+>>>>>>> parent of c6bac3d (a)
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button1.Location = new System.Drawing.Point(442, 53);
+            this.button1.Location = new System.Drawing.Point(442, 23);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 56);
+            this.button1.Size = new System.Drawing.Size(167, 86);
             this.button1.TabIndex = 0;
             this.button1.Text = "2.Sayfa";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button2.Location = new System.Drawing.Point(558, 53);
+            this.button2.Location = new System.Drawing.Point(615, 25);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 56);
+            this.button2.Size = new System.Drawing.Size(167, 84);
             this.button2.TabIndex = 1;
             this.button2.Text = "3.Sayfa";
-            this.button2.UseVisualStyleBackColor = false;
+            this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button3.Location = new System.Drawing.Point(669, 98);
+            this.button3.Location = new System.Drawing.Point(615, 350);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(71, 50);
+            this.button3.Size = new System.Drawing.Size(167, 84);
             this.button3.TabIndex = 2;
             this.button3.Text = "Çıkış";
-            this.button3.UseVisualStyleBackColor = false;
+            this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
@@ -170,7 +170,6 @@ namespace Form_Dersleri_1
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
             this.textBox1.Location = new System.Drawing.Point(64, 74);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
@@ -188,12 +187,12 @@ namespace Form_Dersleri_1
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.label2.Location = new System.Drawing.Point(21, 115);
+            this.label2.Location = new System.Drawing.Point(8, 153);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 6;
             // 
+<<<<<<< HEAD
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
@@ -1018,11 +1017,14 @@ namespace Form_Dersleri_1
             this.checkedListBox2.TabIndex = 83;
             this.checkedListBox2.SelectedIndexChanged += new System.EventHandler(this.checkedListBox2_SelectedIndexChanged);
             // 
+=======
+>>>>>>> parent of c6bac3d (a)
             // frmAnaSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1773, 721);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.panel2);
@@ -1100,6 +1102,9 @@ namespace Form_Dersleri_1
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
+=======
+            this.ClientSize = new System.Drawing.Size(783, 446);
+>>>>>>> parent of c6bac3d (a)
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -1111,11 +1116,6 @@ namespace Form_Dersleri_1
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ana Sayfa";
             this.Load += new System.EventHandler(this.frmAnaSayfa_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1130,6 +1130,7 @@ namespace Form_Dersleri_1
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+<<<<<<< HEAD
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -1214,6 +1215,8 @@ namespace Form_Dersleri_1
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.TextBox textBox16;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
+=======
+>>>>>>> parent of c6bac3d (a)
     }
 }
 
